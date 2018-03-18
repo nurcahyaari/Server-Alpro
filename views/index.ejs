@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/insert" method="post">
+      <input type="text" name="nim1" placeholder="NIM Ketua">
+      <input type="text" name="nama" placeholder="Nama Ketua">
+      <input type="text" name="notelp" placeholder="No Telp">
+      <input type="text" name="slot" placeholder="slot">
+      <input type="text" name="nim2" placeholder="Nim angota">
+      <input type="text" name="nim3" placeholder="Nim Anggota">
+      <input type="submit" name="kirim" value="kirim">
+    </form>
+  </body>
+</html>
